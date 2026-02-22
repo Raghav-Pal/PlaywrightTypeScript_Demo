@@ -15,14 +15,14 @@ test('login test', async ({ page }) => {
     // username.goto('');
     // username = "text";
 
-    page.locator(123);
-    await username.fill(123);
+    // page.locator(123);
+    // await username.fill(123);
 
     await username.fill('standard_user');
     await password.fill('secret_sauce');
     await loginButton.click();
-    await loginButton.pressKey();
+    // await loginButton.pressKey();
 
     await expect(page).toHaveURL('https://www.saucedemo.com/inventory.html');
-    await expect(page).toBeVisible();
+    // await expect(page).toBeVisible();
 });
