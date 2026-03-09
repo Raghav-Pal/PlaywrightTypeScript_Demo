@@ -3,18 +3,18 @@
         "username": "standard_user",
         "password": "secret_sauce",
         "expected": "success",
-        "run": true
+        "run": "yes"
     },
     {
         "username": "locked_out_user",
         "password": "secret_sauce",
         "expected": "error",
-        "run": false
+        "run": "no"
     },
     {
         "username": "problem_user",
         "password": "secret_sauce",
         "expected": "success",
-        "run": true
+        "run": "no"
     }
 ]
